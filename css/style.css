@@ -1,0 +1,35 @@
+.mainCol{
+    position:relative;
+    top:80px;
+    margin-left:20px;
+    border-radius:5px;
+    padding-top:2%;
+    padding-bottom:2%;
+    transition:width 2s;
+}
+#leftSideBar{
+    background:red;
+}
+#centerBar{
+//    background:yellow;
+    
+}
+#centerBar ul li{
+    list-style-type:none;
+    background:grey;
+    left:2%;
+    margin-right:16%;
+    margin-bottom:3%;
+    border-radius:5px;
+    height:100px;
+    padding:2%;
+    transition:opacity 1s;
+}
+#buttonContainer{
+    position:relative;
+    top:60px;
+    left:85%;
+}
+#buttonContainer button{
+    background-image:-moz-linear-gradient(top,rgb(235,235,235) 0%,white 50%,rgb(235,235,235) 100%);
+}
