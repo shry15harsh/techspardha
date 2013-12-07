@@ -1,0 +1,21 @@
+#eventsite{
+    position:absolute;
+    width:90%;
+    height:70%;
+    background:red;
+    top:15%;
+    left:5%;
+    z-index:100;
+    background-image:url('../../eventsite.jpg');
+    background-repeat:no-repeat;
+    background-size:100% 100%;
+}
+#civil{
+    background:red;
+    width:250px;
+    height:60px;
+    position:relative;
+    top:8%;
+    left:14%;
+    cursor:pointer;
+}
