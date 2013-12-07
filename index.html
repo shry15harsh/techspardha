@@ -19,18 +19,56 @@
 			<li><button class="btn btn-lg btn-link">Gallery</button></li>
 			<li><button class="btn btn-lg btn-link">Sponsors</button></li>
 			<li><button class="btn btn-lg btn-link">Contact</button></li>
-			<li><button class="btn btn-lg btn-link" data-toggle="dropdown">NIT</button></li>
+			<li class="dropdown">
+				<button data-toggle="dropdown" href="#" class="btn btn-lg btn-link">NIT</button>
+				<ul class="dropdown-menu" role="menu" aria-labelledby="dLabel">
+					<li>a</li>
+					<li>b</li>
+				</ul>
+			</li>
 		</ul>
-		<blockquote id="quote" class="pull-right">
+		<!--<blockquote id="quote" class="pull-right">
 			Start small but from today
-		</blockquote>
+		</blockquote>-->
 	</nav>
 	<div id="buttonContainer">
 		<button id="flagship" type="button" class="btn btn-sm btn-default">Flagship</button>
 		<button id="feeds" type="button" class="btn btn-sm btn-default" disabled="disabled">Feeds</button>
 	</div>
 		<div id="leftSideBar" class="col-md-2 mainCol">
-			<img src="../eventsite.jpg">
+			<div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
+				<!-- Wrapper for slides -->
+				<div class="carousel-inner">
+					<div class="item active">
+						<img src="../first.jpg" alt="Put Image here">
+						<div class="carousel-caption">
+							<h3>Hey</h3>
+							<p>First</p>
+						</div>
+					</div>
+					<div class="item">
+						<img src="../second.jpg" alt="Put Image here">
+						<div class="carousel-caption">
+							<h3>Hey</h3>
+							<p>Second</p>
+						</div>
+					</div>
+					<div class="item">
+						<img src="../third.jpg" alt="Put Image here">
+						<div class="carousel-caption">
+							<h3>Hey</h3>
+							<p>Third</p>
+						</div>
+					</div>
+						<div class="item">
+						<img src="../fourth.jpg" alt="Put Image here">
+						<div class="carousel-caption">
+							<h3>Hey</h3>
+							<p>Fourth</p>
+						</div>
+					</div>
+				</div>
+			</div>
 		</div>
 		<div id="centerBar" class="col-md-9 mainCol">
 			<div id="fgh">

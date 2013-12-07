@@ -36,9 +36,8 @@ body{
     transition:width 2s;
 }
 #leftSideBar{
-    background:red;
     height:100%;
-    padding:1%;
+    padding:0%;
 }
 #leftSideBar img{
     width:100%;
