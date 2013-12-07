@@ -1,11 +1,30 @@
 body{
-  //  overflow:hidden;
+    overflow:hidden;
 }
 #topNav{
     height:100px;
-//    background:black;//rgba(245,245,245,0.7);
-    background:url('../../header.png');
+    background:black;//rgba(245,245,245,0.7);
+//    background:url('../../header.png');
     background-size:100% 100%;
+    padding:1.5%;
+}
+#quote{
+    position:relative;
+    bottom:85%;
+    font-size:2em;
+    font-style:italic;
+}
+#bottomNav{
+    height:30px;
+    background:black;//rgba(245,245,245,0.7);
+}   
+#bottomNav ul{
+    position:relative;
+    bottom:20%;
+}
+#topNav ul li,#bottomNav ul li{
+    list-style-type:none;
+    display:inline;
 }
 .mainCol{
     position:relative;

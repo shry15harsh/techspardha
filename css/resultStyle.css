@@ -1,0 +1,13 @@
+.results{
+    position:relative;
+    top:160px;
+    float:right;
+}
+#results{
+    font-size:2em;
+    position:fixed;
+    top:160px;
+}
+.results td:hover{
+    cursor:pointer;
+}

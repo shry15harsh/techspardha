@@ -9,12 +9,22 @@
   </head>
   <body>
     <script src="js/jquery.js"></script>
-    <script src="js/bootstrap.min.js"></script>
-	<div id="topNav" class="navbar navbar-default navbar-fixed-top" role="navigation">
+    <script src="js/bootstrap.js"></script>
+	<nav id="topNav" class="navbar navbar-default navbar-fixed-top" role="navigation">
 		<ul>
-			<li></li>
-			<li></li>
-	</div>
+			<li><button class="btn btn-lg btn-link">Home</button></li>
+			<li><button class="btn btn-lg btn-link">About</button></li>
+			<li><button class="btn btn-lg btn-link">Events</button></li>
+			<li><button class="btn btn-lg btn-link">Workshops</button></li>
+			<li><button class="btn btn-lg btn-link">Gallery</button></li>
+			<li><button class="btn btn-lg btn-link">Sponsors</button></li>
+			<li><button class="btn btn-lg btn-link">Contact</button></li>
+			<li><button class="btn btn-lg btn-link" data-toggle="dropdown">NIT</button></li>
+		</ul>
+		<blockquote id="quote" class="pull-right">
+			Start small but from today
+		</blockquote>
+	</nav>
 	<div id="buttonContainer">
 		<button id="flagship" type="button" class="btn btn-sm btn-default">Flagship</button>
 		<button id="feeds" type="button" class="btn btn-sm btn-default" disabled="disabled">Feeds</button>
@@ -56,8 +66,16 @@
 			</div>
 		</div>
 	<script src="js/dynamicGrid.js"></script>
-	<nav class="navbar navbar-default navbar-fixed-bottom" role="navigation">
-  ...
+	<nav id="bottomNav" class="navbar navbar-default navbar-fixed-bottom" role="navigation">
+	<ul>
+		<li><button class="btn btn-lg btn-link">Credits</button></li>
+		<li><button class="btn btn-lg btn-link">Schedule</button></li>
+		<li><button class="btn btn-lg btn-link">Results</button></li>
+		<li><button class="btn btn-lg btn-link">NIT Ad Wall</button></li>
+		<li><button class="btn btn-lg btn-link">NIT QuestionAire</button></li>
+		<li><button class="btn btn-lg btn-link">I made it</button></li>
+		<li><button class="btn btn-lg btn-link">NIT Kkr Facts</button></li>
+	</ul>
 	</nav>
   </body>
 </html>
