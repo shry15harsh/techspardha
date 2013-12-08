@@ -1,10 +1,10 @@
 var opened
 $(document).ready(function(){
+		setTimeout(function(){$("#hint").css("display","none");},9999);
 		opened=false;
 		$(".header #year").click(function(){
+			$("#hint").css("display","none");
 			toggleTranslate();
-	})
-		$(".header #year").mouseout(function(){
 	})
 	});
 function toggleTranslate(){
