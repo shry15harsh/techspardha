@@ -1,0 +1,68 @@
+@font-face
+{
+font-family: accent;
+src: url('../fonts/accent.ttf');
+}
+@font-face
+{
+font-family: adamas;
+src: url('../fonts/Adamas-Regular.otf');
+}
+@font-face
+{
+font-family: gabriela;
+src: url('../fonts/Gabriela.woff');
+}
+@font-face
+{
+font-family: geogram;
+src: url('../fonts/GEOGRAM.ttf');
+}
+@font-face
+{
+font-family: hotel;
+src: url('../fonts/GrandHotel-Regular.otf');
+}
+@font-face
+{
+font-family: vetka;
+src: url('../fonts/Vetka.otf');
+}
+@font-face
+{
+font-family: track;
+src: url('../fonts/track/Track.ttf');
+}
+
+ul li:nth-child(1){
+    font-family:accent;
+}
+ul li:nth-child(2){
+    font-family:adamas;
+}
+ul li:nth-child(3){
+    font-family:gabriela;
+}
+ul li:nth-child(4){
+    font-family:geogram;
+}
+ul li:nth-child(5){
+    font-family:hotel;
+        text-transform:uppercase;
+}
+ul li:nth-child(6){
+    font-family:vetka;
+    text-transform:uppercase;
+}
+ul li:nth-child(7){
+    font-family:track;
+}
+ul li{
+    font-size:4.5em;
+    color:white;
+    text-shadow:2px 2px 4px lightgrey;
+    list-style-type:none;
+}
+body{
+    background:black;
+}

@@ -1,0 +1,120 @@
+@font-face{
+font-family: accent;
+src: url('../fonts/accent.ttf');
+}
+@font-face{
+font-family: vetka;
+src: url('../fonts/Vetka.otf');
+}
+@font-face{
+font-family: gabriela;
+src: url('../fonts/Gabriela.woff');
+}
+.header #name{
+    font-family:accent;
+    color:white;
+    text-shadow:5px 7px 25px rgb(230,230,230);
+    font-size:10em;
+}
+.header #year{
+    font-family:vetka;
+    color:transparent;
+    text-shadow:2px 2px 4px white;
+    font-size:7em;
+    cursor:pointer;
+    display:inline;
+    transition:color 1s;
+}
+.header #year:hover{
+    color:white;
+}
+.header #year .zero{
+    font-family:calibri;
+    text-shadow:2px 2px 10px white;
+}
+.header{
+    background:rgb(45,45,45);
+    width:100%;
+    height:50%;
+    text-align:center;
+    transition:-webkit-transform 2s;
+    transition:transform 2s;
+}
+.down{
+    background:rgb(45,45,45);
+    width:100%;
+    height:500px;
+    transition:-webkit-transform 2s;
+    transition:transform 2s;
+    position:absolute;
+    top:50%;
+    z-index:-1;
+}
+.circle{
+    background:white;
+    width:24px;
+    height:24px;
+    position:absolute;
+    box-shadow:3px 2px 10px whitesmoke;
+    border-radius:12px;
+}
+#upleft{
+    bottom:0%;
+    left:2%;
+}
+#upright{
+    bottom:0%;
+    right:2%;
+}
+#downleft{
+    top:0%;
+    left:2%;
+}
+#downright{
+    top:0%;
+    right:2%;
+}
+.rope{
+    position:absolute;
+    height:500px;
+    width:1px;
+    top:25%;
+    background:rgba(0,0,0,0.5);
+    z-index:-2;
+}
+#leftrope{
+    left:2.8%;
+}
+#rightrope{
+    right:2.8%;
+}
+.hole{
+    width:12px;
+    height:12px;
+    background:rgb(45,45,45);
+    position:absolute;
+    border-radius:6px;
+    top:25%;
+    left:25%;
+    -webkit-transform:scale(0);
+    transform:scale(0);
+    transition:-webkit-transform 2s;
+    transition:transform 2s;
+    cursor:pointer;
+}
+#quote{
+    position:absolute;
+    padding:5% 10% 5% 10%;
+    text-align:center;
+    width:100%;
+    font-family:gabriela;
+    font-size:2em;
+    font-weight:bold;
+    color:rgba(0,0,0,0.2);
+    text-shadow:0px 1px 0px rgb(250,250,250);
+    z-index:-2;
+}
+body{
+    background:rgb(240,240,240);
+    overflow:hidden;
+}
