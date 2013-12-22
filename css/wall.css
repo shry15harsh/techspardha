@@ -1,0 +1,29 @@
+body{
+    overflow:hidden;
+    margin:0;
+}
+.wall{
+    position:absolute;
+    width:100%;
+    height:100%;
+    z-index:-10;
+}
+.odd, .even{
+    background:brown;
+    border:2px solid black;
+    width:8.33333%;
+    float:left;
+    position: relative;
+    min-height: 1px;
+    padding-right: 15px;
+    padding-left: 15px;
+}
+.odd{
+    height:30px;
+}
+.even{
+    height:50px;
+}
+.half{
+    width:4.15%;
+}

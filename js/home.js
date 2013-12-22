@@ -6,6 +6,13 @@ $(document).ready(function(){
 			$("#hint").css("display","none");
 			toggleTranslate();
 	})
+	document.querySelector( '.forkit' ).addEventListener( 'forkit-open', function() {
+  // fired when the curtain is pulled down
+} );
+
+document.querySelector( '.forkit' ).addEventListener( 'forkit-close', function() {
+  // fired when the curtain retracts
+} );
 	});
 function toggleTranslate(){
 	if(opened){

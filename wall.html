@@ -1,52 +1,13 @@
 <!DOCTYPE html>
 <html>
-	<head>
-		<title>Doraemon's Door</title>
-		<script src="js/jquery.js"></script>
-		<script>
-			var closed=true;
-			$(document).ready(function(){
-				$('#wall').click(function(){
-					toggleOC();
-				});
-			});
-			function toggleOC(){
-				if(closed){
-					$('#knob').css('transform','scale(1,1)');
-					$('#knob').css('box-shadow','0px 6px 4px black');
-					$('#door').css('transform','rotateY(90deg)');
-					closed=false;
-				}
-				else{
-					$('#knob').css('transform','scale(0.9,0.9)');
-					$('#knob').css('box-shadow','0px 6px 2px rgb(225,180,220)');
-					$('#door').css('transform','rotateY(0deg)');
-					closed=true;
-				}
-			}
-		</script>
-		<link href="css/ddoor.css" rel="stylesheet">
-		<link href="css/wall.css" rel="stylesheet">
-		<link href="css/bootstrap.css" rel="stylesheet">
-	</head>
-	<body>
-		<div id="fullBody">
-		<div class="extreme" id="tope"></div>
-		<div class="extreme" id="bottome"></div>
-		<div id="wall">
-			<div id="content">Doraemon's Magic Door</div>
-			<div id="door">
-				<div id="front"><div id="knob"></div></div>
-				<div id="back"></div>
-				<div id="left"></div>
-				<div id="right"></div>
-				<div id="top"></div>
-				<div id="bottom"></div>
-			</div>
-			<div id="bottomWall"></div>
-		</div>
-		</div>
-	<div class="wall">
+  <head>
+    <title>Wall</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="css/bootstrap.css" rel="stylesheet">
+	<link href="css/wall.css" rel="stylesheet">
+  </head>
+  <body>
+    <script src="js/jquery.js"></script>
 	<div class="col-md-1 odd"></div>
 	<div class="col-md-1 odd"></div>
 	<div class="col-md-1 odd"></div>
@@ -59,7 +20,7 @@
 	<div class="col-md-1 odd"></div>
 	<div class="col-md-1 odd"></div>
 	<div class="col-md-1 odd"></div>
-	<div class="even half"></div>
+	<div class="col-md-1 even half"></div>
 	<div class="col-md-1 even"></div>
 	<div class="col-md-1 even"></div>
 	<div class="col-md-1 even"></div>
@@ -71,7 +32,7 @@
 	<div class="col-md-1 even"></div>
 	<div class="col-md-1 even"></div>
 	<div class="col-md-1 even"></div>
-	<div class="even half"></div>
+	<div class="col-md-1 even half"></div>
 	<div class="col-md-1 odd"></div>
 	<div class="col-md-1 odd"></div>
 	<div class="col-md-1 odd"></div>
@@ -84,7 +45,7 @@
 	<div class="col-md-1 odd"></div>
 	<div class="col-md-1 odd"></div>
 	<div class="col-md-1 odd"></div>
-	<div class="even half"></div>
+	<div class="col-md-1 even half"></div>
 	<div class="col-md-1 even"></div>
 	<div class="col-md-1 even"></div>
 	<div class="col-md-1 even"></div>
@@ -96,7 +57,7 @@
 	<div class="col-md-1 even"></div>
 	<div class="col-md-1 even"></div>
 	<div class="col-md-1 even"></div>
-	<div class="even half"></div>
+	<div class="col-md-1 even half"></div>
 	<div class="col-md-1 odd"></div>
 	<div class="col-md-1 odd"></div>
 	<div class="col-md-1 odd"></div>
@@ -109,7 +70,7 @@
 	<div class="col-md-1 odd"></div>
 	<div class="col-md-1 odd"></div>
 	<div class="col-md-1 odd"></div>
-	<div class="even half"></div>
+	<div class="col-md-1 even half"></div>
 	<div class="col-md-1 even"></div>
 	<div class="col-md-1 even"></div>
 	<div class="col-md-1 even"></div>
@@ -121,7 +82,7 @@
 	<div class="col-md-1 even"></div>
 	<div class="col-md-1 even"></div>
 	<div class="col-md-1 even"></div>
-	<div class="even half"></div>
+	<div class="col-md-1 even half"></div>
 	<div class="col-md-1 odd"></div>
 	<div class="col-md-1 odd"></div>
 	<div class="col-md-1 odd"></div>
@@ -134,7 +95,7 @@
 	<div class="col-md-1 odd"></div>
 	<div class="col-md-1 odd"></div>
 	<div class="col-md-1 odd"></div>
-	<div class="even half"></div>
+	<div class="col-md-1 even half"></div>
 	<div class="col-md-1 even"></div>
 	<div class="col-md-1 even"></div>
 	<div class="col-md-1 even"></div>
@@ -146,7 +107,7 @@
 	<div class="col-md-1 even"></div>
 	<div class="col-md-1 even"></div>
 	<div class="col-md-1 even"></div>
-	<div class="even half"></div>
+	<div class="col-md-1 even half"></div>
 	<div class="col-md-1 odd"></div>
 	<div class="col-md-1 odd"></div>
 	<div class="col-md-1 odd"></div>
@@ -159,7 +120,7 @@
 	<div class="col-md-1 odd"></div>
 	<div class="col-md-1 odd"></div>
 	<div class="col-md-1 odd"></div>
-	<div class="even half"></div>
+	<div class="col-md-1 even half"></div>
 	<div class="col-md-1 even"></div>
 	<div class="col-md-1 even"></div>
 	<div class="col-md-1 even"></div>
@@ -171,7 +132,7 @@
 	<div class="col-md-1 even"></div>
 	<div class="col-md-1 even"></div>
 	<div class="col-md-1 even"></div>
-	<div class="even half"></div>
+	<div class="col-md-1 even half"></div>
 	<div class="col-md-1 odd"></div>
 	<div class="col-md-1 odd"></div>
 	<div class="col-md-1 odd"></div>
@@ -184,7 +145,7 @@
 	<div class="col-md-1 odd"></div>
 	<div class="col-md-1 odd"></div>
 	<div class="col-md-1 odd"></div>
-	<div class="even half"></div>
+	<div class="col-md-1 even half"></div>
 	<div class="col-md-1 even"></div>
 	<div class="col-md-1 even"></div>
 	<div class="col-md-1 even"></div>
@@ -196,7 +157,7 @@
 	<div class="col-md-1 even"></div>
 	<div class="col-md-1 even"></div>
 	<div class="col-md-1 even"></div>
-	<div class="even half"></div>
+	<div class="col-md-1 even half"></div>
 	<div class="col-md-1 odd"></div>
 	<div class="col-md-1 odd"></div>
 	<div class="col-md-1 odd"></div>
@@ -209,7 +170,7 @@
 	<div class="col-md-1 odd"></div>
 	<div class="col-md-1 odd"></div>
 	<div class="col-md-1 odd"></div>
-	<div class="even half"></div>
+	<div class="col-md-1 even half"></div>
 	<div class="col-md-1 even"></div>
 	<div class="col-md-1 even"></div>
 	<div class="col-md-1 even"></div>
@@ -221,7 +182,7 @@
 	<div class="col-md-1 even"></div>
 	<div class="col-md-1 even"></div>
 	<div class="col-md-1 even"></div>
-	<div class="even half"></div>
+	<div class="col-md-1 even half"></div>
 	<div class="col-md-1 odd"></div>
 	<div class="col-md-1 odd"></div>
 	<div class="col-md-1 odd"></div>
@@ -234,7 +195,7 @@
 	<div class="col-md-1 odd"></div>
 	<div class="col-md-1 odd"></div>
 	<div class="col-md-1 odd"></div>
-	<div class="even half"></div>
+	<div class="col-md-1 even half"></div>
 	<div class="col-md-1 even"></div>
 	<div class="col-md-1 even"></div>
 	<div class="col-md-1 even"></div>
@@ -246,7 +207,7 @@
 	<div class="col-md-1 even"></div>
 	<div class="col-md-1 even"></div>
 	<div class="col-md-1 even"></div>
-	<div class="even half"></div>
+	<div class="col-md-1 even half"></div>
 	<div class="col-md-1 odd"></div>
 	<div class="col-md-1 odd"></div>
 	<div class="col-md-1 odd"></div>
@@ -259,7 +220,7 @@
 	<div class="col-md-1 odd"></div>
 	<div class="col-md-1 odd"></div>
 	<div class="col-md-1 odd"></div>
-	<div class="even half"></div>
+	<div class="col-md-1 even half"></div>
 	<div class="col-md-1 even"></div>
 	<div class="col-md-1 even"></div>
 	<div class="col-md-1 even"></div>
@@ -271,7 +232,6 @@
 	<div class="col-md-1 even"></div>
 	<div class="col-md-1 even"></div>
 	<div class="col-md-1 even"></div>
-	<div class="even half"></div>
-	</div>
-	</body>
+	<div class="col-md-1 even half"></div>
+  </body>
 </html>
