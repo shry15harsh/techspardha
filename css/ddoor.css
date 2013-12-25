@@ -1,15 +1,15 @@
 #fullBody{
     top:15%;
     left:35%;
-    width:440px;
-    height:600px;
+    width:350px;
+    height:500px;
     position:absolute;
     perspective:400px;//50% 50%;
 }
 #wall{
-    background:lightgrey;
+    background:transparent;//lightgrey;
     position:absolute;
-    left:10%;
+    left:12%;
     top:10%;
     perspective-origin:50% 50%;//250px 200px;
     perspective:800px;
@@ -38,14 +38,14 @@
     position:absolute;
     border-radius:0 0 40px 40px;
     border:1px solid black;
-    box-shadow:5px 0px 15px black;
+    box-shadow:5px 0px 5px black;
 }
 #tope{
-    top:4.8%;
+    top:3.5%;
 }
 #bottome{
     transform:rotateX(180deg);
-    top:76.6%;
+    top:90.3%;
 }
 #bottomWall{
     width:250px;
