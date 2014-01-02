@@ -1,0 +1,18 @@
+body{
+    width:100%;
+    height:100%;
+}
+.worm li{
+    position:absolute;
+    width:8px;
+    height:8px;
+    background:black;
+    border-radius:50%;
+    cursor:pointer;
+    list-style-type:none;
+    float:left;
+}
+.worm li:nth-child(30),.worm li:nth-child(1){
+    background:red;
+       border-radius:50%;
+}

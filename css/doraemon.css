@@ -1,0 +1,160 @@
+.doraemon{
+    position:absolute;
+    left:40%;
+    top:10%;
+    width:400px;
+    height:600px;
+}
+.doraemon div{
+//    border:1px solid black;
+}
+#head{
+    position:absolute;
+    width:40%;
+    height:26.666667%;
+    background:skyblue;
+    border-radius:80px;
+    z-index:1;
+}
+.eyes{
+    background:whitesmoke;
+    position:absolute;
+    width:21.9%;
+    height:25%;
+    z-index:3;
+    top:4%;
+    border-radius:50%;
+}
+#left{
+    left:26%;
+}
+#right{
+    right:28%;
+}
+.eyeball{
+    background:black;
+    width:22.8%;
+    height:25%;
+    border-radius:8px;
+    position:absolute;
+    top:40%;
+}
+#left .eyeball{
+    left:60%;
+}
+#right .eyeball{
+    left:15%;
+}
+.circle{
+    position:absolute;
+    border-radius:100%;
+}
+.spark{
+    background:white;
+}
+.eyeball .spark{
+    width:25%;
+    height:37.5%;
+    top:40%;
+    left:40%;
+}
+#face{
+    position:absolute;
+    background:white;
+    width:80%;
+    height:80%;
+    top:20%;
+    left:9%;
+    border-radius:45% 45% 45% 45%;
+    z-index:2;
+}
+#image{
+    position:absolute;
+    right:0%;
+    top:0%;
+}
+#nose{
+    width:15.625%;
+    height:15.625%;
+    background:darkred;
+    top:7%;
+    left:42%;
+}
+#nose .spark{
+    width:35%;
+    height:35%;
+    top:20%;
+    left:20%;   
+}
+.lips{
+    position:absolute;
+    width:110%;
+    height:160%;
+    border:1px solid;
+    border-color:transparent transparent black transparent;
+    border-radius:50%;
+    top:-90%;
+    left:-5%;
+}
+.lines{
+    position:absolute;
+    background:black;
+    width:1px;
+}
+#underNose{
+    left:50%;
+    top:22%;
+    height:49%;
+}
+.moustaches{
+    position:absolute;
+    width:100%;
+    height:100%;
+    list-style-type:none;
+    top:-8%;
+    left:-15%;
+}
+.moustaches li{
+    position:absolute;
+    height:35%;
+}
+.moustaches li:nth-child(1){
+    top:-5%;
+    left:15%;
+    transform:rotate(120deg);
+}
+.moustaches li:nth-child(2){
+    top:15%;
+    left:12%;
+    transform:rotate(90deg);
+}
+.moustaches li:nth-child(3){
+    top:35%;
+    left:12%;
+    transform:rotate(70deg);
+}
+.moustaches li:nth-child(4){
+    top:-5%;
+    right:15%;
+    transform:rotate(-120deg);
+}
+.moustaches li:nth-child(5){
+    top:15%;
+    right:12%;
+    transform:rotate(-90deg);
+}
+.moustaches li:nth-child(6){
+    top:35%;
+    right:12%;
+    transform:rotate(-70deg);
+}
+#neck{
+    width:27%;
+    height:1.5%;
+    background:darkred;
+    border-radius:30%;
+    position:absolute;
+    top:23%;
+    left:6%;
+    z-index:3;
+}
