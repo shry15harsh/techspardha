@@ -29,8 +29,10 @@ $(document).ready(function(){
 		{x+=10*xdec;
 		y=9*(Math.sin(x))+tempY;
 		}
-		else
+		else{
+		tempX=x;
 		y+=10*ydec;
+		x=9*(Math.sin(y))+tempX;}
 		if(flag==1){
 		move(30);
 		}
@@ -44,7 +46,7 @@ var x=0,y=0,totNum=30,c=1;
 var Mx,My;
 var flag,oldflag=1;
 var ydec=0,xdec=0;
-var tempY;
+var tempY,tempX;
 var fx=x,fy=y,bx,by;
 var oldX=new Array(30);
 var oldY=new Array(30);
